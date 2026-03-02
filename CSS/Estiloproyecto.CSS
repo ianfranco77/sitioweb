@@ -1,0 +1,233 @@
+body{
+    background-color:#7A7A7A;
+}
+h1{
+      front-family: arial;
+      front-size: 45px;
+      colr:pink;
+      text-align: center;
+}
+h2,h3,p{
+    text-align:center;
+}
+img{
+   display: block;
+    margin: 0 auto;
+}
+#espacio1{
+       padding: 20px 40px
+}
+#galaxy{
+     Width: 240px;
+     height: 220px;
+     border-radius: 50%;
+     border: 2px solid #ffh000;
+}
+#mercurio{
+       width: 240px;
+       height: 220px;
+}
+#planeta2{
+      width: 240px;
+      height: 220px;
+}
+#planeta3{
+       width: 240px;
+       height: 220px;
+}
+#galaxia{
+      width: 240px;
+      height: 220px;
+}
+#galaxia1{
+       width:240px;
+       height: 220px;
+}
+#galaxia2{
+       width: 240px;
+       height: 220px;
+}
+#galaxia3{
+       width: 240px;
+       height: 220px;
+}
+#nasa1{
+    width: 350px;
+    height: 250px;
+}
+#nasa2{
+    width: 350px;
+    height: 250px;
+}
+#nasa3{
+    width: 350px;
+    height: 250px;
+}
+#imgDiv{
+   padding: 15px 32px
+}
+button{
+    display: block;
+    margin: 0 auto;
+    color:black;
+    background-color: #ffh000;
+    padding: 15px 32px
+}
+#galaxy:hover {
+  box-shadow: 0 0 2px 1px blue;
+  transform: scale(1.5);
+}
+#estrellas{
+        width: 240px;
+        height: 220px;
+}
+#galaxia{
+        width: 200px;
+        height: 220px;
+}
+button:hover{
+background-color:blue;
+}
+#tabla1 tr:hover {
+   background-color: blue;
+}
+#tabla1{
+   margin-left: auto;
+   margin-right: auto;
+   width: 80;
+}
+table td, table th {
+    text-align: center;
+}
+#tabla2{
+   margin-left: auto;
+   margin-right: auto;
+   width: 80;
+}
+table td, table th {
+    text-align: center;
+}
+
+.noticias p{
+  font-family: Fantasy;
+  text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-left, .menu-right, .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+}
+
+.hamburger span {
+    background-color: white;
+    height: 3px;
+    width: 100%;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.mobile-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: width 0.5s ease;
+    padding-top: 60px;
+}
+
+.mobile-menu a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.mobile-menu a:hover {
+    color: #ddd;
+}
+
+.mobile-menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-left, .menu-right .cta-button {
+        display: none;
+    }
+
+    .menu-right .hamburger {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+.navbar a:not(.cta-button) {
+    padding: 10px 15px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:not(.cta-button):hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
